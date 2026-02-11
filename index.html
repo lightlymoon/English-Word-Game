@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Word Game</title>
+  <link rel="stylesheet" href="./Css/Main.css" />
+
+</head>
+<body>
+  <div class="container">
+    <h1>English Word Game</h1>
+
+<div id="difficulty-section">
+  <h3>Choose Difficulty:</h3>
+  <input type="range" id="difficulty-slider" min="1" max="3" step="1" value="1" oninput="updateSliderLabel()" />
+  <span id="difficulty-label">Easy</span>
+  <br /><br />
+  <button onclick="startGame()">Start</button>
+</div>
+    <div id="game-section" class="hidden">
+      <button onclick="goBackToMenu()">Back</button>
+      <div id="word-card">
+        <button onclick="saveWord()">Add to My List</button>
+        <p id="word"></p>
+        <div id="options"></div>
+        <p id="correct-answer" class="hidden"></p>
+        <button onclick="showSavedWords()">My Word List</button>
+        <button onclick="nextWord()">Next</button>
+        
+      </div>
+    </div>
+  </div>
+  <script src="./Js/Main.js"></script>
+</body>
+</html>
