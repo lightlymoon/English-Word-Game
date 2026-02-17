@@ -9,9 +9,6 @@
 ![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Game_Logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Architecture](https://img.shields.io/badge/Architecture-Client_Side-black?style=for-the-badge)
-![Dependencies](https://img.shields.io/badge/Dependencies-0-success?style=for-the-badge)
-
 <br>
 
 ## 🌐 Live Demo
