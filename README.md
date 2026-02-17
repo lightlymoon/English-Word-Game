@@ -39,6 +39,7 @@
 </div>
 ---
 </div>
+
 # ✨ Overview
 
 **English Word Game** is a fully responsive, browser-based word guessing game built using pure HTML, CSS, and JavaScript.
